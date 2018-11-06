@@ -166,11 +166,11 @@ background-size: 100%;
 .story {
 	position: absolute;
 	top: 1350px;
-	background: url(C:/Users/ivanov_n_a/Desktop/html/image/fon2.jpg);
+	background: url(../image/fon2.jpg);
 	background-size: 100%;
 	width: 1905px;
 	height: 130px;
-	z-index: 3
+	z-index: 123;
 }
 
 .story p {
