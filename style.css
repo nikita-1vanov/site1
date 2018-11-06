@@ -1,0 +1,417 @@
+h1 {
+	color: green;
+	text-align: center;
+}
+
+body{
+	background-color: #FAF0E6;
+}
+
+.qwerty  {
+background: url(../image/fon1.jpg) no-repeat;
+background-size: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1905px;
+  height: 850px;
+  z-index: 3;
+}
+
+
+@font-face {
+	font-family: "Quite Chocolatey";
+	src:url(../fonts/QuiteChocolatey.ttf);
+}
+
+.logo {
+	position: absolute;
+	font-family: Quite Chocolatey;
+	font-size: 120px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 180px;
+}
+
+.asd {
+	position: absolute;
+	margin-top: 200px;	
+	margin-left: 180px;
+	font-family: "Tahoma";
+}
+
+
+.asd p:nth-child(1) {
+	color: black;
+	font-size: 110px;
+	line-height: 0px;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.asd p:nth-child(2) {
+	color: white;
+	font-size: 100px;
+	line-height: 0px;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.asd p:last-of-type {
+	line-height: 35px;
+	color: white;
+	font-size: 24px;
+}
+
+.qwerty table  {
+	position: absolute;
+	top: 55px;
+	right: 180px;
+	border-spacing: 25px;
+}
+
+.qwert td {
+	border-radius: 10px;
+}
+
+.qwerty .menu  a {
+	text-decoration: none;	
+	color: white;
+	font-family: "Tahoma";
+	font-size: 30px;
+	display: inline-block;
+	text-align: centre;
+	padding: 15px;
+}
+
+.menu  a:hover {
+	background-color: black;
+	border-radius: 10px;
+}
+
+.menu  td:first-of-type {
+	background: black;
+}
+
+.form  {
+	position: absolute;
+	right: 180px;
+	top: 400px;
+	padding: 0px;
+	}
+	
+.qwerty form {
+	position: absolute;
+	right: 250px;
+	top: 445px;
+	
+}
+
+.qwerty form input[type="text"] {
+	font-family: "Time New Romain";
+	font-size: 18px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	width: 300px ;
+    height: 48px;
+	padding-left: 20px;
+	background: #eeeeee;
+}
+
+.qwerty form input[type="submit"] {
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	background: #c62314;
+	border: 1px solid #c62314;
+	width: 315px;
+    height: 48px;
+	border-radius: 3px;
+}
+
+.qwerty form label {
+	font-size: 20px;
+	text-align: center;	
+}
+
+.qwerty form p {
+	font-family: "Tahoma";
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.service  {
+	position: absolute;
+	top: 840px;
+	left: 180px;
+}
+
+.service td , th{
+	text-align: center;
+	width: 380px;
+}
+
+.service p {
+	font-family: "Tahoma";
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.service td p {
+	font-family: "Time New Romain";
+	font-size: 21px;
+}
+
+.story {
+	position: absolute;
+	top: 1350px;
+	background: url(../image/fon2.jpg);
+	background-size: 100%;
+	width: 1905px;
+	height: 130px;
+	z-index: 3
+}
+
+.story p {
+	color: white;
+	font-size: 23px;
+	margin-top: 40px;
+	margin-left: 350px;	
+}
+
+.story form {
+	position: absolute;
+	top: 40px;
+	right: 340px
+}
+
+.story form [type="submit"] {
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	background: #c62314;
+	border: 1px solid #c62314;
+	border-radius: 3px;
+	width: 290px;
+    height: 60px;
+	border-radius: 3px;
+}
+
+/*.tarif {
+	position: absolute;
+	top: 1480px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	} */
+
+div.pricing {
+	position: absolute;
+	top: 1470px;
+	margin-left: 50%;
+	margin-right: 50%
+}
+	
+.pricing p {
+	font-family: "Tahoma";
+	font-size: 50px;
+	font-weight: bold;
+	}
+	
+div.tarif {
+	position: absolute;
+	top: 1620px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	}
+
+div.starter {
+	float: left;
+	width: 33%;
+	
+}
+
+div.bussines {
+	float: left;
+	width: 33%;
+	
+}
+
+div.professional {
+	float: left;
+	width: 33%;
+	}
+	
+.tarif  p.pr1 {
+	position: absolute;
+	top: 10px;
+	float: left;
+	width: 33%;
+	font-family: "Time New Romain";
+	font-size: 21px;
+}
+
+.tarif  p.pr2 {
+	position: absolute;
+	top: 30px;
+	float: left;
+	width: 33%;
+	font-family: "Tahoma";
+	color: #c62314;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.tarif  p.pr3 {
+	position: absolute;
+	top: 150px;
+	float: left;
+	width: 33%;
+	font-family: "Time New Romain";
+	font-size: 21px;
+}
+
+.tarif form {
+	position: absolute;
+	top: 320px;
+	width: 33%;
+}
+
+.tarif input{	
+	font-family: "Tahoma";
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 200px;
+    height: 48px;
+	border: 1px solid #130e27;
+	border-radius: 7px;
+	background: #130e27;
+		
+}
+
+.tarif  .bussines input {
+	background: #c62314;
+	border: 1px solid #c62314;
+}
+
+div.pred {
+	background: white;
+	position: absolute;
+	top: 2200px;
+	float: left;
+	width: 100%;
+	padding-bottom:40px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.pred p {
+	font-size: 50PX;
+	font-family: "Tahoma";
+	color: red;
+	text-align: center;
+} 	
+
+.testimonial p {
+	color: black;
+
+}
+
+div.testimonial {
+	float: left;
+	width: 35%;
+}
+
+.pers1 {
+	padding-left: 50px;
+}
+
+.pers2{
+	padding-left: 50px;
+	background:#FAF0E6;
+}
+
+div.gallery {
+	float: left;
+	width: 35%;
+}
+
+.pers1 p {
+	font-family: "Time New Romain";
+	font-size: 24px;
+	color: black;
+	text-align: left;
+}
+
+.pers1 p:nth-child(2) {
+	font-family: "Tahoma";
+	font-size: 24px;
+	color: black;
+	text-align: left;
+}
+
+.pers2 p {
+	font-family: "Time New Romain";
+	font-size: 24px;
+	color: black;
+	text-align: left;
+}
+
+.pers2 p:nth-child(2) {
+	font-family: "Tahoma";
+	font-size: 24px;
+	color: #c62314;
+	text-align: left;
+}
+
+.gallery table{
+	padding-left: 150px;
+	
+}
+
+	
+.gallery table p {
+	color: black;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+footer {
+	position: absolute;
+	top: 2760px;
+	background: #130e27;
+	float: left;
+	width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.text-f  {
+	float: left;
+	width: 35%;
+}
+
+.logo-f  {
+	float: left;
+	width: 35%;
+}
+
+.text-f p {
+	font-family: "Time New Romain";
+	font-size: 22px;
+	color: white;
+	text-align: left;
+	padding-top:40px;
+}
+
+.logo-f p {
+	font-family: "Quite Chocolatey";
+	font-size: 80px;
+	color: red;
+	text-align: right;
+	line-height: 0;
+}
